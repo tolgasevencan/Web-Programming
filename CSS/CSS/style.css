@@ -1,0 +1,96 @@
+body {
+    background-color: powderblue;
+  }
+  
+  h1 {
+    font-family: cursive;
+    color: blue;
+    font-size: 300%;
+    border: 2px solid green;
+    padding: 30p;
+    margin: 50px;
+  }
+  
+  #p01 {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+  }
+  
+  
+  
+  
+  <style>.mainHeaderBanner {
+    background: #871014 url('https://n11scdn.akamaized.net/a1/org/19/10/25/57/14/43/73/66/04/90/28/66/65428122441854466950.png') no-repeat top center;
+    color: #000;
+    display: block;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .mainHeaderBanner .kkcountdown-box {
+    margin: 7px 0 0 350px;
+  }
+  
+  .header-banner-cover .header-adB {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  
+  .travelBlog {
+    display: block !important;
+    padding-top: 0;
+  }
+  
+  .travelContainer {
+    padding-top: 0;
+  }
+  
+  .travelBlog .logo {
+    top: 13px;
+  }
+  
+  .travelListingContainer .travelContainer {
+    padding-top: 50px;
+  }
+  
+  </style><div class="HeaderCampaign mainHeaderBanner"></div><div class="header-adB"><script type="text/javascript">var googletag=googletag || {}
+  
+  ;
+  googletag.cmd=googletag.cmd || [];
+  
+  (function () {
+      var gads=document.createElement('script');
+      gads.async=true;
+      gads.type='text/javascript';
+      var useSSL='https:'==document.location.protocol;
+      gads.src=(useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+      var node=document.getElementsByTagName('script')[0];
+      node.parentNode.insertBefore(gads, node);
+    }
+  
+  )();
+  
+  </script><script type="text/javascript">googletag.cmd.push(function () {
+      googletag.defineSlot('/30398149/MEB_HEADER', ['fluid', [1370, 60]], 'div-gpt-ad-1530604273807-0') .addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.pubads().collapseEmptyDivs();
+      googletag.pubads().setTargeting('cat', ).setTargeting('cat_top', ).setTargeting('keyword', "");
+      googletag.enableServices();
+    }
+  
+  );
+  </script><div id="div-gpt-ad-1530604273807-0"class="adBanner"style="width: auto; height: auto; display: none;"
+  
+  data-google-query-id="CKCYpczWweUCFflWFQgddJYOcg"><script type="text/javascript">googletag.cmd.push(function () {
+      googletag.display('div-gpt-ad-1530604273807-0');
+    }
+  
+  );
+  </script><div id="google_ads_iframe_/30398149/MEB_HEADER_0__container__"
+  style="border: 0pt none; width: 100%; height: 0%;"></div></div></div></div>
