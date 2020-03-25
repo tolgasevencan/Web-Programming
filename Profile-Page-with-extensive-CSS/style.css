@@ -1,0 +1,279 @@
+body {
+    background-color: rgb(188, 229, 216);
+    background-image: url(https://cdn.hipwallpaper.com/i/17/63/DIAQaW.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+figcaption {
+    font-size: 5px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 40px;
+    color: rgb(197, 25, 25)
+}
+
+span.sort {
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2 {
+    font-style: oblique;
+}
+
+hr {
+    border-top: 3px solid aquamarine;
+}
+
+#Education_History {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px rgb(185, 160, 160);
+}
+
+#Education_History td,
+#Education_History th {
+    border: 2px solid rgb(66, 64, 64);
+    padding: 8px;
+}
+
+#Education_History tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Education_History tr:hover {
+    background-color: #ddd;
+}
+
+#Education_History th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(245, 134, 70);
+    color: white;
+}
+
+#Working_History {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px rgb(185, 160, 160);
+}
+
+#Working_History td,
+#Working_History th {
+    border: 2px solid rgb(66, 64, 64);
+    padding: 8px;
+}
+
+#Working_History tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Working_History tr:hover {
+    background-color: #ddd;
+}
+
+#Working_History th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(245, 134, 70);
+    color: white;
+}
+
+
+#Children {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px rgb(185, 160, 160);
+}
+
+#Children td,
+#Children th {
+    border: 3px solid mediumseagreen;
+    padding: 8px;
+}
+
+#Children tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Children tr:hover {
+    background-color: #ddd;
+}
+
+#Children th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(245, 134, 70);
+    color: white;
+}
+
+
+#Hobbies {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px rgb(185, 160, 160);
+}
+
+#Hobbies td,
+#Hobbies th {
+    border: 3px solid mediumseagreen;
+    padding: 8px;
+}
+
+#Hobbies tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Hobbies tr:hover {
+    background-color: #ddd;
+}
+
+#Hobbies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(245, 134, 70);
+    color: white;
+}
+
+/* Descendant Selector */
+
+
+section h4 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+#About_me {
+    color: brown;
+    letter-spacing: 2px;
+    font-family: 'Lobster', cursive;
+}
+
+article {
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* Child Selector */
+
+div.a>span.date {
+    font-size: 15px;
+}
+
+div.a {
+    text-indent: 30px;
+}
+
+div.b {
+    text-indent: 30px;
+}
+
+div.c {
+    text-indent: 30px;
+}
+
+div.d {
+    text-indent: 30px;
+}
+
+span.city {
+    font-style: italic;
+}
+
+span.date {
+    text-decoration: underline;
+}
+
+span.name {
+    font-weight: bold;
+}
+
+span.country {
+    color: red;
+}
+
+span.important {
+    text-transform: uppercase;
+}
+
+address {
+    text-align: center;
+    border: solid maroon;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+/* Social media */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Social media hover */
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
