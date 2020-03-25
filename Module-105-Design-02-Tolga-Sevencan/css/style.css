@@ -1,0 +1,110 @@
+/* Tag */
+
+body {
+    background-image: url("grid.png");
+    height: 750px;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    z-index: 7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+figcaption {
+    display: none;
+}
+
+/* Class */
+
+.giris {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    z-index: 7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.button1 {
+    left: 1130px;
+    top: 35px;
+    background: #5b7bc0;
+    color: white;
+    position: fixed;
+    z-index: 20;
+    height: 22px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.hesap {
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    width: 100%;
+    height: 645px;
+}
+
+/* Id */
+
+#img1 {
+    left: 178px;
+    height: 50px;
+    width: 100px;
+    top: 25px;
+}
+
+#email-tel {
+    left: 750px;
+    height: 60px;
+    width: 180px;
+    top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+#sifre {
+    left: 940px;
+    height: 60px;
+    width: 250px;
+    top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+#slogan {
+    left: 178px;
+    top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #142170;
+    height: 75px;
+    width: 550px;
+}
+
+#hesap-ac {
+    left: 750px;
+    top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    height: 75px;
+    width: 500px;
+}
+
+#connect {
+    top: 130px;
+    left: 178px;
+    width: 537px;
+    height: 195px;
+}
