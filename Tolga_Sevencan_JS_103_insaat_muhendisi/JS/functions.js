@@ -1,43 +1,37 @@
 /* Output */
 
-function output(data){
+function output(data) {
     let result = document.getElementById("result");
     result.innerHTML += data;
 }
 
 /* Fonksiyonlar */
 
-function daireAlanlariniHesapla() 
-{ 
+function daireAlanlariniHesapla() {
     let sonuclar = [];
-    for (let r = 0; r < daireOlanlar.length; r++) 
-    {
-       let birAlan = Math.PI * Math.pow(daireOlanlar[r], 2); 
-       sonuclar.push(birAlan);
-    }   
-    return sonuclar;
-}
-
-function dikdortgenAlanlariniHesapla()
-{
-    let sonuclar = [];
-    for (let i = 0; i < dikdortgenOlanlar.length; i++) 
-    {
-        let birAlan = dikdortgenOlanlar[i] * dikdortgenOlanlar[i+1];
-        sonuclar.push(birAlan);     
+    for (let r = 0; r < daireOlanlar.length; r++) {
+        let birAlan = Math.PI * Math.pow(daireOlanlar[r], 2);
+        sonuclar.push(birAlan);
     }
     return sonuclar;
 }
 
-function kupHacimleriniHesapla() 
-{
+function dikdortgenAlanlariniHesapla() {
     let sonuclar = [];
-    for (let a = 0; a < kupHacimleri.length; a++)
-    {
+    for (let i = 0; i < dikdortgenOlanlar.length; i++) {
+        let birAlan = dikdortgenOlanlar[i] * dikdortgenOlanlar[i + 1];
+        sonuclar.push(birAlan);
+    }
+    return sonuclar;
+}
+
+function kupHacimleriniHesapla() {
+    let sonuclar = [];
+    for (let a = 0; a < kupHacimleri.length; a++) {
         let birHacim = Math.pow(kupHacimleri[a], 3);
         sonuclar.push(birHacim);
     }
-    return(sonuclar);
+    return (sonuclar);
 }
 
 

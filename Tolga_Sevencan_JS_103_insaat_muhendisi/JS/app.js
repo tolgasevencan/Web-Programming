@@ -1,16 +1,16 @@
-let daireOlanlar = [6,23,19,0,200,156];
+let daireOlanlar = [6, 23, 19, 0, 200, 156];
 
 let daireAlanlari = daireAlanlariniHesapla();
 output("Verilen yaricaplara gore daire alanlari= " + daireAlanlari);
 output("<br><br>");
 
-let dikdortgenOlanlar = [7,5,2,8,10,20,7,21,12,10,6];
+let dikdortgenOlanlar = [7, 5, 2, 8, 10, 20, 7, 21, 12, 10, 6];
 
 let dikdortgenAlanlari = dikdortgenAlanlariniHesapla();
 output("Verilen kenar uzunluklarina gore dikdortgen alanlari= " + dikdortgenAlanlari);
 output("<br><br>");
 
-let kupHacimleri = [2,6,1,4,13, -1];
+let kupHacimleri = [2, 6, 1, 4, 13, -1];
 
 let kupHacimlerin = kupHacimleriniHesapla();
 output("Verilen kenar uzunluklarina gore kup hacimleri= " + kupHacimlerin);
