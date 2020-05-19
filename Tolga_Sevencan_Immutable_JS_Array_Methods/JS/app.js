@@ -1,8 +1,15 @@
-let cars = ["audi", "bmw", "ford", "opel", "fiat", "honda", "toyota", "renault", "tesla", "volvo", "skoda", "nissan", "ferrari", 
-            "vw", "alfa romeo", "mitsubishi", "TOGG;)"];
+let cars = ["audi", "bmw", "ford", "opel", "fiat", "honda", "toyota", "renault", "tesla", "volvo", "skoda", "nissan", "ferrari",
+    "vw", "alfa romeo", "mitsubishi", "TOGG;)"
+];
 
 
-let realCars = cars.filter(filterUnwantedChars);
+console.log(cars.filter(() => "!= TOGG;)"));
+
+function checkRealCars() {
+    return 
+}
+
+/*
 output("<strong>Araba karakteri tasimayan arabalari;) filtreleyiniz.</strong><br>" + realCars);
 
 let carsIncludingCharO = realCars.filter(filterCarsIncludingCharO);
@@ -14,16 +21,13 @@ let occurances = findNumberOfChar(cars.join(), "o");
 output("<br><br>");
 output("<strong>Icinde iki defa 'o' harfi gecen arabalarin sayisini bulun.</strong><br>" + occurances);
 
-realCars.filter(function(auto){
+realCars.filter(function (auto) {
 
     let numberOfOs = findNumberOfChar(auto, "o");
-    if(numberOfOs == 2){
+    if (numberOfOs == 2) {
         return true;
-        }
-        return false;
-    
+    }
+    return false;
+
 })
-
-
-
-
+*/
